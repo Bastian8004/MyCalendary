@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <a class="btn btn-info left" href="{% url 'mycalendary:calendar' %}?{{ prev_month }}"> Poprzedni miesiąc </a>
+        <a class="btn btn-info right" href="{% url 'mycalendary:calendar' %}?{{ next_month }}"> Następny miesiąc </a>
+        <a class="btn btn-info right" href="{% url 'mycalendary:event_new' %}"> Nowe wydarzenie </a>
+    </div>
+    <div class="col-md-12">
+        {{ calendar }}
+    </div>
+</div>
+{% endblock %}
