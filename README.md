@@ -32,3 +32,11 @@
 
 <h2>Poniżej znajdują się zdjęcia z wiidoku przeglądarki</h2>
 
+<h4>Widok kalendarz</h4>
+<img src="images/1.png">
+<h4>Formularz dodający wydarzenia</h4>
+<img src="images/2.png">
+<h4>Kalendarz po dodaniu wydarzenia</h4>
+<img src="images/3.png">
+<h4>Widok z panelu administracyjnego</h4>
+<img src="images/4.png">
